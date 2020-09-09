@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+#canvas {
+	display: block;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
